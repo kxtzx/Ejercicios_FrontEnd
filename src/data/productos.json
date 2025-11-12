@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "titulo": "Smartphone Pro Max",
+    "descripcion": "El último modelo con pantalla OLED de 6.7 pulgadas y cámara triple de 108MP",
+    "imagen": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+    "precioBase": 1299.99,
+    "descuentoPorcentaje": 15,
+    "rating": 4.8,
+    "stock": true,
+    "categoria": "Electrónica"
+  },
+  {
+    "id": 2,
+    "titulo": "Auriculares Inalámbricos Premium",
+    "descripcion": "Cancelación de ruido activa, 30 horas de batería y sonido Hi-Fi",
+    "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+    "precioBase": 349.99,
+    "descuentoPorcentaje": 25,
+    "rating": 4.6,
+    "stock": true,
+    "categoria": "Audio"
+  },
+  {
+    "id": 3,
+    "titulo": "Laptop Gaming Ultra",
+    "descripcion": "Intel i9, RTX 4080, 32GB RAM, pantalla 144Hz para máximo rendimiento",
+    "imagen": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400",
+    "precioBase": 2499.99,
+    "descuentoPorcentaje": 0,
+    "rating": 4.9,
+    "stock": true,
+    "categoria": "Computadoras"
+  },
+  {
+    "id": 4,
+    "titulo": "Smartwatch Fitness Pro",
+    "descripcion": "Monitor de salud 24/7, GPS integrado y resistente al agua",
+    "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+    "precioBase": 299.99,
+    "descuentoPorcentaje": 10,
+    "rating": 4.3,
+    "stock": false,
+    "categoria": "Wearables"
+  }
+]
