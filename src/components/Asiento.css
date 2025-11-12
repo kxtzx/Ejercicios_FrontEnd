@@ -1,0 +1,6 @@
+.asiento-btn{ width:36px; height:36px; border-radius:6px; border:1px solid #ddd; display:flex; align-items:center; justify-content:center; transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease; }
+.asiento-btn:hover{ transform: scale(1.06); box-shadow: 0 6px 14px rgba(0,0,0,0.08); }
+.asiento-btn:active{ transform: scale(0.98); }
+.asiento-libre{ background:#fff; color:#111; cursor:pointer }
+.asiento-seleccionado{ background:#1d9bf0; color:#fff; cursor:pointer }
+.asiento-ocupado{ background:#ccc; color:#666; cursor:not-allowed }

@@ -1,0 +1,22 @@
+.profile-card { 
+  max-width: 380px;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  background: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+.header-section{ display:flex; justify-content:space-between; align-items:center; }
+.profile-image{ width:72px; height:72px; border-radius:50%; object-fit:cover; }
+.edit-button{ background:#eee; border:none; padding:8px 10px; border-radius:8px; cursor:pointer; }
+.info-section{ margin-top:12px; }
+.profile-name{ margin:0; font-size:18px; }
+.verification-badge{ display:inline-flex; align-items:center; justify-content:center; width:20px; height:20px; margin-left:8px; vertical-align:middle; cursor:default; transition: transform 120ms ease, box-shadow 120ms ease; }
+.verification-badge:hover{ transform: scale(1.12); box-shadow: 0 4px 10px rgba(29,161,242,0.18); }
+.username{ color:#666; margin:4px 0 8px 0 }
+.bio{ margin:8px 0 }
+.details{ color:#777; font-size:13px; display:flex; gap:12px }
+.stats-section{ margin-top:10px; display:flex; gap:16px; color:#333 }
+.follow-button{ margin-top:12px; padding:10px 16px; border-radius:8px; cursor:pointer; border:1px solid #1d9bf0; background:#1d9bf0; color:white }
+.follow-button.following{ background:white; color:#1d9bf0 }
