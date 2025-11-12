@@ -18,17 +18,12 @@ interface AsientoStats {
   seleccionado: number;
 }
 
-// Configuración del mapa de asientos
 const CONFIGURACION = {
   filas: ['A', 'B', 'C', 'D', 'E'],
   asientosPorFila: 8,
   maxAsientosLibres: 10,
 };
 
-/**
- * Genera asientos iniciales con estado aleatorio
- * Asegura que haya entre 1 y maxFree asientos libres
- */
 function generateInitialSeats(
   rows: string[] = CONFIGURACION.filas,
   seatsPerRow: number = CONFIGURACION.asientosPorFila,
@@ -38,7 +33,6 @@ function generateInitialSeats(
   const maxAllowedFree = Math.max(1, Math.min(maxFree, total));
   const freeCount = Math.floor(Math.random() * maxAllowedFree) + 1;
 
-  // Crear todos los asientos con estado 'ocupado' por defecto
   const seats: Asiento[] = rows.flatMap((row) =>
     Array.from({ length: seatsPerRow }, (_, i) => ({
       id: `${row}${i + 1}`,
@@ -48,7 +42,6 @@ function generateInitialSeats(
     }))
   );
 
-  // Seleccionar índices aleatorios para marcar como 'libre'
   const availableIndices = Array.from({ length: total }, (_, i) => i);
   
   for (let k = 0; k < freeCount; k++) {
@@ -61,13 +54,8 @@ function generateInitialSeats(
 }
 
 export default function TabTwoScreen() {
-  // Ejecutar la generación solo una vez al montar el componente
   const [asientos, setAsientos] = useState<Asiento[]>(() => generateInitialSeats());
 
-  /**
-   * Maneja el click en un asiento
-   * Alterna entre 'libre' y 'seleccionado' (los asientos ocupados no se pueden modificar)
-   */
   const alClicAsiento = useCallback((idAsiento: string) => {
     setAsientos((prevAsientos) =>
       prevAsientos.map((asiento) => {
@@ -82,7 +70,6 @@ export default function TabTwoScreen() {
     );
   }, []);
 
-  // Agrupar asientos por fila para el componente MapaAsientos
   const asientosPorFila = useMemo(() => {
     return asientos.reduce((acc, asiento) => {
       if (!acc[asiento.fila]) {
@@ -93,7 +80,6 @@ export default function TabTwoScreen() {
     }, {} as Record<string, Asiento[]>);
   }, [asientos]);
 
-  // Calcular estadísticas de asientos
   const estadisticas = useMemo<AsientoStats>(() => {
     return asientos.reduce(
       (acc, asiento) => {
@@ -128,7 +114,6 @@ export default function TabTwoScreen() {
             alClicAsiento={alClicAsiento} 
           />
 
-          {/* Panel de resumen estilo ticket de cine */}
           <View style={styles.ticketContainer}>
             <View style={styles.ticketHeader}>
               <Text style={styles.ticketTitle}>🎫 Tu Reserva</Text>
@@ -169,7 +154,6 @@ export default function TabTwoScreen() {
             </View>
           </View>
 
-          {/* Botón de confirmación */}
           {estadisticas.seleccionado > 0 && (
             <TouchableOpacity 
               style={styles.confirmButton}

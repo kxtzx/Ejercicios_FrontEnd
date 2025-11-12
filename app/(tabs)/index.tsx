@@ -3,10 +3,6 @@ import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
 import UserProfileDemo from '../../src/components/UserProfileDemo';
 
-/**
- * Pantalla de perfil de usuario
- * Muestra una tarjeta de perfil con información del usuario
- */
 export default function TabOneScreen() {
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>

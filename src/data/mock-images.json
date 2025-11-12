@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    "titulo": "Montañas al atardecer",
+    "autor": "John Doe",
+    "autorAvatar": "https://i.pravatar.cc/150?img=1",
+    "tags": ["naturaleza", "montañas", "paisaje", "atardecer"],
+    "likes": 234,
+    "descripcion": "Vista panorámica de montañas durante el atardecer"
+  },
+  {
+    "id": "2",
+    "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+    "titulo": "Playa tropical",
+    "autor": "Maria Garcia",
+    "autorAvatar": "https://i.pravatar.cc/150?img=2",
+    "tags": ["playa", "mar", "tropical", "verano"],
+    "likes": 567,
+    "descripcion": "Hermosa playa con aguas cristalinas"
+  },
+  {
+    "id": "3",
+    "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    "titulo": "Comida gourmet",
+    "autor": "Chef Antonio",
+    "autorAvatar": "https://i.pravatar.cc/150?img=3",
+    "tags": ["comida", "food", "gourmet", "cocina"],
+    "likes": 892,
+    "descripcion": "Plato de alta cocina con presentación elegante"
+  },
+  {
+    "id": "4",
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "titulo": "Reloj de diseño",
+    "autor": "Design Studio",
+    "autorAvatar": "https://i.pravatar.cc/150?img=4",
+    "tags": ["diseño", "design", "producto", "minimalista"],
+    "likes": 445,
+    "descripcion": "Reloj de pulsera con diseño minimalista"
+  },
+  {
+    "id": "5",
+    "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+    "titulo": "Arquitectura moderna",
+    "autor": "Urban Photographer",
+    "autorAvatar": "https://i.pravatar.cc/150?img=5",
+    "tags": ["arquitectura", "ciudad", "urbano", "moderno"],
+    "likes": 678,
+    "descripcion": "Edificio con arquitectura contemporánea"
+  },
+  {
+    "id": "6",
+    "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1",
+    "titulo": "Bosque en otoño",
+    "autor": "Nature Lover",
+    "autorAvatar": "https://i.pravatar.cc/150?img=6",
+    "tags": ["naturaleza", "bosque", "otoño", "árboles"],
+    "likes": 321,
+    "descripcion": "Camino a través de un bosque otoñal"
+  },
+  {
+    "id": "7",
+    "url": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    "titulo": "Burger artesanal",
+    "autor": "Foodie Life",
+    "autorAvatar": "https://i.pravatar.cc/150?img=7",
+    "tags": ["comida", "food", "burger", "hamburguesa"],
+    "likes": 1023,
+    "descripcion": "Hamburguesa artesanal con ingredientes premium"
+  },
+  {
+    "id": "8",
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    "titulo": "Lago montañoso",
+    "autor": "Adventure Seeker",
+    "autorAvatar": "https://i.pravatar.cc/150?img=8",
+    "tags": ["naturaleza", "lago", "montañas", "paisaje"],
+    "likes": 756,
+    "descripcion": "Lago cristalino rodeado de montañas"
+  },
+  {
+    "id": "9",
+    "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    "titulo": "Diseño interior",
+    "autor": "Interior Designer",
+    "autorAvatar": "https://i.pravatar.cc/150?img=9",
+    "tags": ["diseño", "design", "interior", "decoración"],
+    "likes": 534,
+    "descripcion": "Sala de estar con diseño minimalista"
+  },
+  {
+    "id": "10",
+    "url": "https://images.unsplash.com/photo-1530789253388-582c481c54b0",
+    "titulo": "Playa al atardecer",
+    "autor": "Sunset Chaser",
+    "autorAvatar": "https://i.pravatar.cc/150?img=10",
+    "tags": ["playa", "atardecer", "mar", "paisaje"],
+    "likes": 890,
+    "descripcion": "Hermoso atardecer en la playa"
+  },
+  {
+    "id": "11",
+    "url": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+    "titulo": "Bowl de frutas",
+    "autor": "Healthy Food",
+    "autorAvatar": "https://i.pravatar.cc/150?img=11",
+    "tags": ["comida", "food", "saludable", "frutas"],
+    "likes": 667,
+    "descripcion": "Bowl nutritivo con frutas frescas"
+  },
+  {
+    "id": "12",
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+    "titulo": "Bosque misterioso",
+    "autor": "Forest Explorer",
+    "autorAvatar": "https://i.pravatar.cc/150?img=12",
+    "tags": ["naturaleza", "bosque", "niebla", "misterioso"],
+    "likes": 445,
+    "descripcion": "Bosque envuelto en niebla matutina"
+  },
+  {
+    "id": "13",
+    "url": "https://images.unsplash.com/photo-1505142468610-359e7d316be0",
+    "titulo": "Cámara vintage",
+    "autor": "Photography Gear",
+    "autorAvatar": "https://i.pravatar.cc/150?img=13",
+    "tags": ["diseño", "design", "fotografía", "vintage"],
+    "likes": 332,
+    "descripcion": "Cámara analógica clásica"
+  },
+  {
+    "id": "14",
+    "url": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b",
+    "titulo": "Ciudad nocturna",
+    "autor": "Night Photography",
+    "autorAvatar": "https://i.pravatar.cc/150?img=14",
+    "tags": ["ciudad", "urbano", "noche", "arquitectura"],
+    "likes": 998,
+    "descripcion": "Luces de la ciudad al anochecer"
+  },
+  {
+    "id": "15",
+    "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+    "titulo": "Pasta italiana",
+    "autor": "Italian Kitchen",
+    "autorAvatar": "https://i.pravatar.cc/150?img=15",
+    "tags": ["comida", "food", "pasta", "italiano"],
+    "likes": 723,
+    "descripcion": "Deliciosa pasta fresca con salsa"
+  },
+  {
+    "id": "16",
+    "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "titulo": "Carretera infinita",
+    "autor": "Road Tripper",
+    "autorAvatar": "https://i.pravatar.cc/150?img=16",
+    "tags": ["viaje", "travel", "carretera", "aventura"],
+    "likes": 854,
+    "descripcion": "Carretera que atraviesa el desierto"
+  },
+  {
+    "id": "17",
+    "url": "https://images.unsplash.com/photo-1452457807411-4979b707c5be",
+    "titulo": "Auroras boreales",
+    "autor": "Sky Watcher",
+    "autorAvatar": "https://i.pravatar.cc/150?img=17",
+    "tags": ["naturaleza", "aurora", "cielo", "nocturno"],
+    "likes": 1245,
+    "descripcion": "Impresionantes auroras boreales"
+  },
+  {
+    "id": "18",
+    "url": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+    "titulo": "Café artesanal",
+    "autor": "Coffee Lover",
+    "autorAvatar": "https://i.pravatar.cc/150?img=18",
+    "tags": ["comida", "food", "café", "bebida"],
+    "likes": 567,
+    "descripcion": "Taza de café con arte latte"
+  },
+  {
+    "id": "19",
+    "url": "https://images.unsplash.com/photo-1483058712412-4245e9b90334",
+    "titulo": "Gadgets modernos",
+    "autor": "Tech Review",
+    "autorAvatar": "https://i.pravatar.cc/150?img=19",
+    "tags": ["diseño", "design", "tecnología", "gadgets"],
+    "likes": 432,
+    "descripcion": "Dispositivos electrónicos de última generación"
+  },
+  {
+    "id": "20",
+    "url": "https://images.unsplash.com/photo-1502082553048-f009c37129b9",
+    "titulo": "Cascada espectacular",
+    "autor": "Waterfall Hunter",
+    "autorAvatar": "https://i.pravatar.cc/150?img=20",
+    "tags": ["naturaleza", "cascada", "agua", "paisaje"],
+    "likes": 976,
+    "descripcion": "Majestuosa cascada en medio de la selva"
+  },
+  {
+    "id": "21",
+    "url": "https://images.unsplash.com/photo-1493770348161-369560ae357d",
+    "titulo": "Pizza napolitana",
+    "autor": "Pizza Master",
+    "autorAvatar": "https://i.pravatar.cc/150?img=21",
+    "tags": ["comida", "food", "pizza", "italiano"],
+    "likes": 834,
+    "descripcion": "Pizza tradicional recién horneada"
+  },
+  {
+    "id": "22",
+    "url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+    "titulo": "Desierto dorado",
+    "autor": "Desert Nomad",
+    "autorAvatar": "https://i.pravatar.cc/150?img=22",
+    "tags": ["naturaleza", "desierto", "arena", "paisaje"],
+    "likes": 645,
+    "descripcion": "Dunas de arena bajo el sol"
+  },
+  {
+    "id": "23",
+    "url": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85",
+    "titulo": "Auriculares premium",
+    "autor": "Audio Tech",
+    "autorAvatar": "https://i.pravatar.cc/150?img=23",
+    "tags": ["diseño", "design", "audio", "música"],
+    "likes": 521,
+    "descripcion": "Auriculares de alta fidelidad"
+  },
+  {
+    "id": "24",
+    "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a",
+    "titulo": "Rascacielos modernos",
+    "autor": "Urban Explorer",
+    "autorAvatar": "https://i.pravatar.cc/150?img=24",
+    "tags": ["ciudad", "urbano", "arquitectura", "moderno"],
+    "likes": 789,
+    "descripcion": "Torres de oficinas en el distrito financiero"
+  },
+  {
+    "id": "25",
+    "url": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8",
+    "titulo": "Sushi tradicional",
+    "autor": "Japanese Food",
+    "autorAvatar": "https://i.pravatar.cc/150?img=25",
+    "tags": ["comida", "food", "sushi", "japonés"],
+    "likes": 912,
+    "descripcion": "Selección de sushi fresco"
+  },
+  {
+    "id": "26",
+    "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d",
+    "titulo": "Pradera florida",
+    "autor": "Flower Field",
+    "autorAvatar": "https://i.pravatar.cc/150?img=26",
+    "tags": ["naturaleza", "flores", "campo", "primavera"],
+    "likes": 654,
+    "descripcion": "Campo lleno de flores silvestres"
+  },
+  {
+    "id": "27",
+    "url": "https://images.unsplash.com/photo-1526178613552-2b45c6c302f0",
+    "titulo": "Laptop minimalista",
+    "autor": "Workspace Design",
+    "autorAvatar": "https://i.pravatar.cc/150?img=27",
+    "tags": ["diseño", "design", "tecnología", "trabajo"],
+    "likes": 432,
+    "descripcion": "Espacio de trabajo limpio y moderno"
+  },
+  {
+    "id": "28",
+    "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "titulo": "Vía láctea",
+    "autor": "Star Gazer",
+    "autorAvatar": "https://i.pravatar.cc/150?img=28",
+    "tags": ["naturaleza", "cielo", "estrellas", "nocturno"],
+    "likes": 1456,
+    "descripcion": "La vía láctea en todo su esplendor"
+  },
+  {
+    "id": "29",
+    "url": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+    "titulo": "Smoothie saludable",
+    "autor": "Health Guru",
+    "autorAvatar": "https://i.pravatar.cc/150?img=29",
+    "tags": ["comida", "food", "saludable", "bebida"],
+    "likes": 543,
+    "descripcion": "Batido verde nutritivo"
+  },
+  {
+    "id": "30",
+    "url": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5",
+    "titulo": "Jardín zen",
+    "autor": "Zen Master",
+    "autorAvatar": "https://i.pravatar.cc/150?img=30",
+    "tags": ["naturaleza", "zen", "jardín", "tranquilo"],
+    "likes": 678,
+    "descripcion": "Jardín japonés con rocas y arena"
+  }
+]

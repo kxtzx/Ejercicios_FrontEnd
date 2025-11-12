@@ -21,7 +21,6 @@ export default function TabThreeScreen() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
-    // Simular carga de datos
     const cargarProductos = () => {
       try {
         setProductos(productosData as Producto[]);
@@ -32,7 +31,6 @@ export default function TabThreeScreen() {
       }
     };
 
-    // Simular un pequeño delay
     setTimeout(cargarProductos, 300);
   }, []);
 
